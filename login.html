@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eat now - login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/login.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.PNG" alt="logo" width="40%"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="getapp.html"
+                  >Get the app</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="partnerwithus.html"
+                  >Add a restaurant</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="loginFlex">
+        <div class="loginImg">
+          <img src="images/loginpage.PNG" alt="" />
+        </div>
+        <div id="login-form">
+          <h1>Login</h1>
+          <form>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Email address or phone number"
+            />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              name="password"
+            />
+            <input type="submit" value="LOGIN" />
+          </form>
+          <a href="#">Forgot your password?</a>
+          <hr />
+          <a id="signupLogin" href="signup.html" style="color: white"
+            >REGISTER NOW</a
+          >
+          <div class="loginNote">
+            <p>We are now delivering in</p>
+            <ul>
+              <li>Bengaluru</li>
+              <li>Delhi</li>
+              <li>Mumbai</li>
+              <li>Chennai</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footdsn">
+        <div class="footdivhead">
+          <img src="images/logo.PNG" alt="logo" />
+        </div>
+        <div class="footdivhead">
+          <div class="footer-select">
+            <form class="footer-form">
+              <select class="select-foot" name="country">
+                <option value="india">India</option>
+                <option value="england">England</option>
+                <option value="australia">Australia</option>
+              </select>
+            </form>
+
+            <form class="footer-form">
+              <select class="select-foot" name="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footdsn">
+        <div class="footdiv">
+          <p class="footerp">ABOUT EAT NOW</p>
+          <a href="aboutus.html">Who we are?</a><br />
+          <a href="workwithus.html">Work with us</a><br />
+          <a href="">Contact us</a>
+        </div>
+        <div class="footdiv">
+          <p class="footerp">FOR RESTAURANTS</p>
+          <a href="partnerwithus.html">Partner with us</a><br />
+          <a href="partnerapp.html">App for partners</a><br />
+        </div>
+        <div class="footdiv">
+          <p class="footerp">FOLLOW US</p>
+          <a href="https://www.facebook.com" target="_blank">Facebook</a><br />
+          <a href="https://www.instagram.com" target="_blank">Instagram</a
+          ><br />
+        </div>
+      </div>
+      <hr />
+      <p align="center">&#169; 2023 Eat Now</p>
+    </footer>
+  </body>
+</html>

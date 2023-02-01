@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eat Now</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.PNG" alt="logo" width="40%"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="getapp.html"
+                  >Get the app</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="partnerwithus.html"
+                  >Add a restaurant</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExample" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/corosal1.png" class="d-block w-100" alt="offer3" />
+          </div>
+          <div class="carousel-item" data-interval="300">
+            <img
+              src="images/corosal4.avif"
+              class="d-block w-100"
+              alt="offer2"
+            />
+          </div>
+          <div class="carousel-item" data-interval="300">
+            <img src="images/corosal3.jpg" class="d-block w-100" alt="offer1" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Button-->
+      <br />
+      <div class="d-grid gap-2">
+        <button
+          class="btn btn-primary"
+          style="background-color: rgb(223, 49, 49)"
+          type="button"
+        >
+          View all deals
+        </button>
+        <br />
+      </div>
+      <!-- Card-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="images/BurgerKing.PNG"
+              class="card-img-top"
+              alt="burgerking"
+            />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">Burger King</h5>
+                <p class="card-text">Burger, Fast Food, Desserts</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/mcdonalds.PNG" class="card-img-top" alt="McD" />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">McDonald's</h5>
+                <p class="card-text">Burgers, Fast foods, Milkshakes</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="images/polarbear.PNG"
+              class="card-img-top"
+              alt="polarbear"
+            />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">Polar bear</h5>
+                <p class="card-text">Ice cream, beverages, Shakes</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="images/cakezone.PNG"
+              class="card-img-top"
+              alt="cakezone"
+            />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">Cakezone</h5>
+                <p class="card-text">Bakery, Icecream</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="images/lassishop.PNG"
+              class="card-img-top"
+              alt="lassishop"
+            />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">Lassi Shop</h5>
+                <p class="card-text">Lassi, beverages, Shakes</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="images/belgianwaffle.PNG"
+              class="card-img-top"
+              alt="belgianwaffle"
+            />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">The Belgian Waffle</h5>
+                <p class="card-text">Waffles, Shakes</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <!--Buttons-->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <footer class="footer">
+      <div class="footdsn">
+        <div class="footdivhead">
+          <img src="images/logo.PNG" alt="logo" />
+        </div>
+        <div class="footdivhead">
+          <div class="footer-select">
+            <form class="footer-form">
+              <select class="select-foot" name="country">
+                <option value="india">India</option>
+                <option value="england">England</option>
+                <option value="australia">Australia</option>
+              </select>
+            </form>
+
+            <form class="footer-form">
+              <select class="select-foot" name="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footdsn">
+        <div class="footdiv">
+          <p class="footerp">ABOUT EAT NOW</p>
+          <a href="aboutus.html">Who we are?</a><br />
+          <a href="workwithus.html">Work with us</a><br />
+          <a href="">Contact us</a>
+        </div>
+        <div class="footdiv">
+          <p class="footerp">FOR RESTAURANTS</p>
+          <a href="partnerwithus.html">Partner with us</a><br />
+          <a href="partnerapp.html">App for partners</a><br />
+        </div>
+        <div class="footdiv">
+          <p class="footerp">FOLLOW US</p>
+          <a href="https://www.facebook.com" target="_blank">Facebook</a><br />
+          <a href="https://www.instagram.com" target="_blank">Instagram</a
+          ><br />
+        </div>
+      </div>
+      <hr />
+      <p align="center">&#169; 2023 Eat Now</p>
+    </footer>
+  </body>
+</html>
